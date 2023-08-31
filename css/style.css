@@ -73,7 +73,7 @@
   transition: all 0.5s;
 }
 .social-link:hover{
-  color:black;
+  color:darkred;
 }
 /*main*/
 .main {
@@ -104,7 +104,7 @@
 .introduction-h2 {
   font-size: 14px;
   text-transform: uppercase;
-  color: #daae19;
+  color: darkred;
   margin-bottom: 33px;
 }
 .introduction-text {
@@ -118,7 +118,7 @@
   border: none;
   cursor: pointer;
   color: white;
-  background-color: #daae19;
+  background-color:darkred;
   transition: all 0.5s;
 }
 .introduction-center {
@@ -307,10 +307,9 @@
 .comments-wrapper {
   background-color: #15263e;
   color: white;
-  background-image: url("/src/img/clip.jpg");
+  background-image: url("images/6.jpg");
   opacity: 100%;
 }
-
 .comments-slide {
   padding: 200px 400px;
   display: none;
@@ -366,4 +365,80 @@
 #comments-button-2:hover,
 #comments-button-3:hover {
   border: 2px solid #e93656;
+}
+
+/* Latest Articles*/
+
+.articles-h2{
+  margin-left:750px;
+  font-size:70px;
+}
+.articles1,
+.articles2,
+.articles3 {
+  max-width: 1770px;
+  height: 590px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+}
+
+.articles1,
+.articles3{
+  margin-left: 150px;
+}
+
+.articles2{
+  flex-direction: row-reverse;
+}
+
+.article-info {
+  padding-left: 50px;
+  width: 800px;
+}
+
+.articles-icon {
+  margin-top: 80px;
+  font-size: 40px;
+  padding: 30px;
+  color:darkred;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+.article-h4 {
+  color: #888888;
+  margin-bottom: 5px;
+}
+
+.article-h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.article-p {
+  padding-right: 200px;
+}
+
+.article-years {
+  background-color: #15263e;
+  max-width: 125px;
+  display: flex;
+  align-items: center;
+}
+
+.article-years-p {
+  font-size: 30px;
+  transform: rotate(90deg);
+  width: 300px;
+  color: white;
+}
+
+.article-images{
+  max-width: 950px;
+}
+
+.articles{
+  margin-bottom: 150px;
 }
